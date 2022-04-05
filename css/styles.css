@@ -1,0 +1,53 @@
+:root {
+    --h1--principal:'Parisienne', cursive;
+    --hs--titulos: 'Poppins', sans-serif;
+    --parrafos: 'Poppins', sans-serif;
+
+    --color--Principal: #69E0FA;
+    
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:wght@300;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../img/Hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header h1 span {
+    color: var(--color--Principal);
+    font-family: var(--h1--principal);
+    text-align: center;
+    padding: 10rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 2rem;
+}
+
+p {
+    font-family: var(--parrafos);
+    font-weight: 300;
+}
+
+h2 {
+    font-family: var(--hs--titulos);
+    font-weight: 600;
+}
