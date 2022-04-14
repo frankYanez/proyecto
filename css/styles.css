@@ -3,7 +3,7 @@
     --hs--titulos: 'Poppins', sans-serif;
     --parrafos: 'Poppins', sans-serif;
 
-    --color--Principal: #69E0FA;
+    --color--Principal: #a8eff8;
     
 
 }
@@ -12,13 +12,59 @@
 
 .cards {
     justify-content: center;
+    margin: 40px;
 }
 
 h1 {
     text-align: center;
 }
 
-.footer {
-    display: flex;
-    justify-content: space-between;
+footer {
+    background-color: #a8eff8;
+}
+
+.bg-type {
+    background-color: var(--color--Principal);
+}
+
+span {
+    text-shadow: 1px 1px 2px black ;
+    color: #a8eff8;
+    text-transform: uppercase ;
+    font-style: oblique;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 60px;
+    
+}
+
+.card {
+
+    box-shadow: 13px 12px 15px -3px #a8eff8;
+}
+
+.up {
+    margin-top: 20px;
+    gap: 40px;
+    justify-content: center;
+}
+
+.down {
+    gap: 40px;
+    justify-content: center;
+}
+.vid-1 {
+    margin-top: 60px;
+    justify-items: center;
+}
+
+.video-q {
+    display: block;
+    margin: auto;
+}
+
+.alert {
+    margin: 40px;
 }
